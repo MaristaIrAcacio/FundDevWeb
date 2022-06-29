@@ -8,11 +8,11 @@ Professor: [Leonardo Rocha](https://www.linkedin.com/in/leonardossrocha)
 > *importante manter suas cópias também atualizadas.*
 
 ## ÍNDICE
-<br>
-[GIT](#git)
-[História da Internet](#história-da-internet) 
-[HTML5](#html5) 
-[CSS3](#css3)
+
+[GIT](#git) <br>
+[História da Internet](#história-da-internet) <br>
+[HTML5](#html5) <br>
+[CSS3](#css3)<br>
 
 ### GIT 
 
