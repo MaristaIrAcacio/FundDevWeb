@@ -4,15 +4,19 @@ Disciplina de Fundamentos de Desenvolvimento Web - 1º Ano do Ensino Médio.
 Professor: [Leonardo Rocha](https://www.linkedin.com/in/leonardossrocha)
 <br><br>
 
-**ATENÇÃO**: *Todo o material utilizado nesse repositório está em constante atualização. Portanto, é importante manter suas cópias também atualizadas.*
+>**ATENÇÃO**: *Todo o material utilizado nesse repositório está em constante atualização. Portanto, é* 
+> *importante manter suas cópias também atualizadas.*
 <br><br>
 
 ## ÍNDICE
 <br>
-[GIT](https://github.com/MaristaIrAcacio/FundDevWeb#folha-de-dicas-de-git)<br>
-[História da Internet](https://github.com/MaristaIrAcacio/FundDevWeb#hist%C3%B3ria-da-internet) <br>
-[HTML5](https://github.com/MaristaIrAcacio/FundDevWeb#html5) <br>
-[CSS3](https://github.com/MaristaIrAcacio/FundDevWeb#css3)<br>
+* [GIT](#folha-de-dicas-de-git)
+<br>
+* [História da Internet](#hist%C3%B3ria-da-internet) 
+<br>
+* [HTML5](#html5) 
+<br>
+* [CSS3](#css3)
 <br>
 
 ### GIT 
