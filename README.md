@@ -1,11 +1,11 @@
 # Fundamentos de Desenvolvimento Web
-<br>
 Disciplina de Fundamentos de Desenvolvimento Web - 1º Ano do Ensino Médio. 
-<br><br>
+<br>
 Professor: [Leonardo Rocha](https://www.linkedin.com/in/leonardossrocha)
 <br><br>
 
 **ATENÇÃO**: *Todo o material utilizado nesse repositório está em constante atualização. Portanto, é importante manter suas cópias também atualizadas.*
+<br><br>
 
 ## ÍNDICE
 <br>
