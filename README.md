@@ -6,13 +6,12 @@ Professor: [Leonardo Rocha](https://www.linkedin.com/in/leonardossrocha)
 
 >**ATENÇÃO**: *Todo o material utilizado nesse repositório está em constante atualização. Portanto, é* 
 > *importante manter suas cópias também atualizadas.*
-<br><br>
 
 ## ÍNDICE
 <br>
 * [GIT](#folha-de-dicas-de-git)
 <br>
-* [História da Internet](#hist%C3%B3ria-da-internet) 
+* [História da Internet](#historia-da-internet) 
 <br>
 * [HTML5](#html5) 
 <br>
