@@ -9,13 +9,13 @@ Professor: [Leonardo Rocha](https://www.linkedin.com/in/leonardossrocha)
 
 ## ÍNDICE
 <br>
-* [GIT](#git)
+[GIT](#git)
 <br>
-* [História da Internet](#história-da-internet) 
+[História da Internet](#história-da-internet) 
 <br>
-* [HTML5](#html5) 
+[HTML5](#html5) 
 <br>
-* [CSS3](#css3)
+[CSS3](#css3)
 <br>
 
 ### GIT 
