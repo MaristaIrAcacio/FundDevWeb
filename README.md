@@ -9,9 +9,9 @@ Professor: [Leonardo Rocha](https://www.linkedin.com/in/leonardossrocha)
 
 ## ÍNDICE
 <br>
-* [GIT](#folha-de-dicas-de-git)
+* [GIT](#git)
 <br>
-* [História da Internet](#historia-da-internet) 
+* [História da Internet](#história-da-internet) 
 <br>
 * [HTML5](#html5) 
 <br>
