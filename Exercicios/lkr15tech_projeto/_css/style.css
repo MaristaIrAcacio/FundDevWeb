@@ -1,0 +1,47 @@
+h1{
+    color: red;
+    font-size: 25px;
+    font-style: italic;
+    font-family: Verdana;
+    text-align: center;
+}
+h2{
+   color: rgb(59, 224, 9);
+}
+h4{
+   
+}
+p{
+   text-align: justify;
+   font-weight:100px;
+}
+
+/*Formação de Menu*/
+/*Fonte: https://www.youtube.com/watch?v=kU7b9olDWns*/
+
+/* Opção para criar barrado no topo da página para o menu
+header{
+	background-color: #dab7b7;
+	padding: 20px;
+	position: relative;
+	top: -10px;
+}
+*/
+nav#menu{
+    display: block;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu ul{
+    list-style: none; /*Remove marcação de lista*/
+    text-transform: uppercase; /*Coloca os caracteres em caixa alta*/
+    position: absolute; /**/
+    top: -25px; /*Define a distância do topo da página*/
+    left: 800px; /*Define a distândia da margem esquerda da página*/
+}
+nav#menu li{
+    display: inline-block;
+    background-color: #dab7b7;
+    padding: 15px;
+}
