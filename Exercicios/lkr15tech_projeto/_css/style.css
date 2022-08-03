@@ -1,34 +1,41 @@
 h1{
-    color: red;
+    color: rgb(13, 5, 90);
     font-size: 25px;
     font-style: italic;
     font-family: Verdana;
     text-align: center;
 }
 h2{
-   color: rgb(59, 224, 9);
-}
-h4{
-   
+   color: rgb(12, 8, 61);
 }
 p{
    text-align: justify;
    font-weight:100px;
 }
 
-/*Formação de Menu*/
+
 /*Fonte: https://www.youtube.com/watch?v=kU7b9olDWns*/
 
-/* Opção para criar barrado no topo da página para o menu
+/* Barrado no topo da página para o menu*/
 header{
-	background-color: #dab7b7;
-	padding-top: 20px;
+	background-color: #ffffff;
+	padding-top: 50px;
+	margin: 0px;
 	position: relative;
 	top: -10px;
+	/*max-width:1920px;*/
 }
-*/
+img#logo-topo{
+    width: 50%;
+}
+/*Cor de fundo no corpo da página*/
+body{
+    background-color: #689df3;
+	margin: 0px;
+}
+/*Formação de Menu*/
 nav#menu{
-    display: block;
+    display: block; /*Configuração que permite a flutuação do menu pela tela*/
 }
 nav#menu h1{
     display: none;
@@ -37,11 +44,28 @@ nav#menu ul{
     list-style: none; /*Remove marcação de lista*/
     text-transform: uppercase; /*Coloca os caracteres em caixa alta*/
     position: absolute; /*Modifica posição do elemento na página*/
-    top: -25px; /*Define a distância do topo da página*/
+    top: 50px; /*Define a distância do topo da página*/
     left: 800px; /*Define a distândia da margem esquerda da página*/
 }
 nav#menu li{
     display: inline-block;
-    background-color: #dab7b7;
+    background-color: #689df3;
     padding: 15px;
+}
+/*Configuração de hiperlinks do menu*/
+nav#menu a:link{
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: black;
+    font-family: verdana;
+    font-weight: bold;
+}
+nav#menu a:visited{
+    color: rgb(7, 74, 80);
+}
+nav#menu a:hover{
+    color: aliceblue;
+}
+section{
+    display: block;
 }
