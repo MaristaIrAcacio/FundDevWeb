@@ -2,11 +2,23 @@ body{
     background-color: rgb(218, 224, 226);
 }
 h1#curriculo{
-    color: rgb(85, 50, 9);
-    background-color: blue;
     text-align: center;
-    font-family: 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: rgb(10, 102, 194);
+    padding: 25px;
+    font-family: Verdana;
+    color: white;
 }
-h2, p{
-    font-family: 'Gill Sans MT','Trebuchet MS', sans-serif;
+h1{
+    /*Conofigurações para os demais H1 do código*/
+}
+h2{
+    font-family: Verdana;
+    text-align: center;
+}
+h4{
+    font-family: Verdana;
+}
+p{
+    font-family: Verdana;
+    padding: 30px;
 }
