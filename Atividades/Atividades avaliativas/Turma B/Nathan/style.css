@@ -1,0 +1,65 @@
+/*
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                                                                               │
+│ Organization structure based on the following guides:                         │
+│                                                                               │
+│ https://medium.com/swlh/better-ways-to-organise-css-properties-9a066e7ded62   │
+│ https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing │
+│                                                                               │
+└───────────────────────────────────────────────────────────────────────────────┘
+*/
+
+
+/* || GENERAL STYLES || */
+
+* {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1, p {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 0 16px;
+}
+
+td {
+    padding: 0 4px;
+
+    text-align: right;
+}
+
+
+/* || TABLE ORGANIZATION || */
+
+#tables {
+    display: flex;
+    
+    width: 950px;
+    height: 77px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.main-table {
+    width: 950px;
+    height: 221px;
+    margin: 0 auto;
+}
+
+
+/* || TABLE STYLING || */
+
+thead {
+    background-color: rgb(140, 140, 233);
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}

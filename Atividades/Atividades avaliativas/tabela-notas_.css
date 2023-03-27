@@ -1,0 +1,37 @@
+*{
+    font-family: verdana;
+    font-size: 14px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    border: 10px inset blue;
+    padding: 5px;
+}
+table, th, tr, td{
+    text-align: center;
+    border: 2px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    width: 200px;
+}
+#condicao td{
+    width: 150px;
+}
+#destaque{
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+}
+#aprovado{
+    background-color: rgb(80, 145, 206);
+}
+#reprovado{
+    background-color: rgb(214, 94, 94);
+}

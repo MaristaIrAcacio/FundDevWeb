@@ -1,0 +1,62 @@
+/*FORMATAÇÃO DE MENU*/
+nav#menu {
+   display: block;
+}
+nav#menu li{
+   display: inline-block;
+   padding: 15px;
+}
+nav#menu ul{
+   list-style: none;
+   text-transform: uppercase;
+   top: -20px;
+   left: 800px;
+   text-align: center;
+   background-color: slateblue;
+}
+nav#menu li:hover{
+   background-color: floralwhite;
+}
+nav#menu a:link{
+   color:blueviolet;
+   text-decoration: none;
+   transition: all 0.3s ease;
+   font-weight: bold;
+}
+nav#menu a:visited{
+   color:powderblue;
+}
+nav#menu a:hover{
+   color:blueviolet;
+}
+
+/*FORMATAÇÃO HTML*/
+h1{
+   color: blueviolet;
+   font-family: monospace;
+   text-align: center;
+   font-size: 40px;
+}
+h2#titulo a:link{
+   color:slateblue;
+   text-decoration: none;
+   transition: all 0.3s ease;
+   font-weight: bold;
+}
+h2#titulo a:visited{
+   color: thistle;
+}
+h2#titulo a:hover{
+   color: lavender;
+}
+
+/*FORMATAÇÃO FOOTER*/
+footer{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: slateblue;
+   color: floralwhite;
+   padding: 15px;
+   position:fixed;
+   bottom:0;
+   width:100%;
+}

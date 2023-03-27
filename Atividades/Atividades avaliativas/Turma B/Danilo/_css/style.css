@@ -1,0 +1,32 @@
+#poupansa{
+    color: red;
+}
+#amarelo{
+    background-color: yellow;
+}
+table{
+    text-align: center;
+    border: 5px solid green;
+}
+th{
+    font-size: 35px;
+    border-width: 50px;
+    background-color: green;
+    color: aliceblue;
+    padding: 11px;
+}
+td{
+    size: 70px;
+    background-color: black;
+    border-width: 50px;
+    color: aliceblue;
+    border-color: green;
+    border: 2px solid green;
+}
+h1{
+    color: aliceblue;
+    background-color: black;
+    padding: 15px;
+    border-color: black;
+    height: 40px;
+}

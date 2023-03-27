@@ -1,0 +1,15 @@
+
+
+#tabela1{
+    margin-left: 10%;
+    font-family: Arial;
+}
+
+
+#tabela2 tr, th, td{
+    border: 1px solid black;
+    font-family: Arial;
+}
+#tabela2 th{
+   background-color: yellow;
+}

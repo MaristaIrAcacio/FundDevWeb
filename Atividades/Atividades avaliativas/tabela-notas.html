@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Notas de alunos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='tabela-notas.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Controle de notas - Aprovados e Reprovados</h1>
+    <table id="condicao">
+        <tr>
+            <td>TOTAL >= 70</td>
+        </tr>
+        <tr>
+            <td id="aprovado">APROVADO</td>
+        </tr>
+    </table>
+    <br><br>
+    <table id="condicao">
+        <tr>
+            <td>TOTAL < 70</td>
+        </tr>
+        <tr>
+            <td id="reprovado">REPROVADO</td>
+        </tr>
+    </table>
+    <br><br>
+    <table>
+        <tr>
+            <th>Aluno</th>
+            <th>Avaliação 1</th>
+            <th>Avaliação 2</th>
+            <th>Total</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Carleta Joaquina</td>
+            <td>0</td>
+            <td>45</td>
+            <td>45</td>
+            <td id="reprovado">REPROVADO</td>
+        </tr>
+        <tr>
+            <td>Felisberto Crispim</td>
+            <td>40</td>
+            <td>50</td>
+            <td>90</td>
+            <td id="aprovado">APROVADO</td>
+        </tr>
+        <tr>
+            <td>João da Silva</td>
+            <td>30</td>
+            <td>20</td>
+            <td>50</td>
+            <td id="reprovado">REPROVADO</td>
+        </tr>
+        <tr>
+            <td>Maria de Jesus</td>
+            <td>20</td>
+            <td>30</td>
+            <td>50</td>
+            <td id="reprovado">REPROVADO</td>
+        </tr>
+        <tr>
+            <td>Teobaldo Ferrari</td>
+            <td>42</td>
+            <td>35</td>
+            <td>77</td>
+            <td id="aprovado">APROVADO</td>
+        </tr>
+    </table>
+    <br><br>
+    <table id="condicao">
+        <tr>
+            <td id="destaque">Média da turma</td>
+            <td>62,4</td>
+        </tr>
+        <tr>
+            <td id="destaque">Maior Nota</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td id="destaque">Menor Nota</td>
+            <td>45</td>
+        </tr>
+    </table>
+</body>
+</html>
