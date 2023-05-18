@@ -4,6 +4,7 @@ h1{
     font-style: italic;
     font-family: Verdana;
     text-align: center;
+    text-align: center;
 }
 h2{
    color: rgb(12, 8, 61);
@@ -71,10 +72,6 @@ nav#menu a:hover{
     color: aliceblue;
 }
 
-.element{
-
-}
-
 /*Formatação de imagens */
 
 /*Legendas*/
@@ -108,4 +105,66 @@ figure.foto_leg:hover figcaption{
     opacity: 1;
     transition: opacity 1s;
 
+}
+/*Apresentação de imagens na página de produtos*/
+.container {
+    width: 60%;
+    margin: 2rem auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 1.5rem;
+}
+
+img {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    /* max-width: 400px; */
+}
+.imgProdutos{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+}
+
+.imgItem {
+    /* width: 100%;
+    height: 100%; */
+    /* object-fit: cover; */
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.boxItem {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.boxItem2 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.boxItem3 {
+    grid-column-start: 10;
+    grid-column-end: 14;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+p{
+    text-align: justify;
+}
+#descricao{
+    margin-left: 200px;
+    margin-right: 200px;
 }

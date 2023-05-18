@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Produtos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='_css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='_css/products.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='_css/products2.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <a href="index.html"><img id="logo-topo" src="_img/logo_topo.png"></a>
+        <nav id="menu">
+            <h1>Menu</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <section id="descricao">
+        <h1>Magic Mouse – Superfície Multi-Touch</h1>
+        <!-- Modelo 1 - Slider de imagem 
+        Fonte: https://www.devmedia.com.br/como-criar-um-slider-com-css-e-html/37787-->
+        <!-- <ul class="slider">
+            <li>
+                  <input type="radio" id="slide1" name="slide" checked>
+                  <label for="slide1"></label>
+                  <img src="_img/appleMagicMouse.png" />
+            </li>
+            <li>
+                  <input type="radio" id="slide2" name="slide">
+                  <label for="slide2"></label>
+                  <img src="_img/appleMagicMouse2.png" />
+            </li>
+            <li>
+                  <input type="radio" id="slide3" name="slide">
+                  <label for="slide3"></label>
+                  <img src="_img/appleMagicMouse3.png" />
+            </li>
+        </ul> -->
+        <br>
+        <!-- Modelo 2 - Carrossel de imagem
+        Fonte: https://www.treinaweb.com.br/blog/slideshow-apenas-com-css-->
+        <input type="radio" class="slide-controller" name="slide" checked />
+        <input type="radio" class="slide-controller" name="slide" />
+        <input type="radio" class="slide-controller" name="slide" />
+
+        <div class="slide-show">
+            <ul class="slides-list">
+                <li class="slide">
+                    <img src="_img/appleMagicMouse.png" />
+                </li>
+                <li class="slide">
+                    <img src="_img/appleMagicMouse2.png" />
+                </li>
+                <li class="slide">
+                    <img src="_img/appleMagicMouse3.png" />
+                </li>
+            </ul>
+            <!-- <img src="_img/appleMagicMouse.png" class="imgProdutos" id="centro"> -->
+            <h2>R$ 810,00</h2>
+            <h4>Cartão de crédito - 12x67,50</h4>
+            <p>O Magic Mouse é recarregável, sem fio e tem uma base com design otimizado para ser movimentada suavemente
+                pela mesa. Com a superfície Multi-Touch, você navega em documentos e entre páginas da internet fazendo
+                gestos simples. A bateria recarregável do Magic Mouse dura muito: um mês ou mais entre recargas. Ele já
+                vem pronto para usar e é emparelhado automaticamente com o Mac. Acompanha o mouse um cabo USB-C para
+                Lightning em tecido que emparelha e recarrega pela porta USB-C do computador.</p>
+    </section>
+</body>
+
+</html>
